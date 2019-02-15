@@ -1,0 +1,26 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "node rest api project for file upload and basic",
+  "main": "fileUpload.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "eslint": "^5.10.0",
+    "express": "^4.16.4",
+    "minio": "^7.0.1",
+    "multer": "^1.4.1",
+    "multer-sftp": "^0.2.0",
+    "sharp": "^0.21.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node fileUpload.js"
+  },
+  "keywords": [
+    "file",
+    "upload"
+  ],
+  "author": "nik",
+  "license": "UNLICENCED"
+}
